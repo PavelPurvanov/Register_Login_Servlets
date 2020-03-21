@@ -1,0 +1,74 @@
+body {
+	background-color: #ccc;
+}
+
+.main {
+	background-color: #ccc;
+	margin-bottom: 20px;
+}
+
+.heading {
+	font-size: 32px;
+	color: #012e5e;	
+	margin: 20px 0;
+}
+
+.text {
+	display: block;
+	font-size: 17px;
+	color: #012e5e;	
+	margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.centered {
+	text-align: center;
+}
+
+.info-box {
+	background: #ffb84d;
+	border-radius: 5px;
+    margin:auto;
+    
+    width: 50%;
+	display: grid;
+	padding: 40px 20px 20px;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #f4f4f4
+}
+
+input[type=password], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #f4f4f4
+}
+
+.button {
+  background-color: #012e5e;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  padding: 14px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 8px 0px;
+  margin-top: 20px;
+  cursor: pointer;
+  width: 50%;
+}
